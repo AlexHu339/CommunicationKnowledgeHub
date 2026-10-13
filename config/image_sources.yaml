@@ -1,0 +1,5 @@
+allowed_licenses: [CC0, CC-BY, CC-BY-SA, 公有领域, 用户上传仅本地使用, 官方资料允许个人学习保存]
+require_local_copy: true
+require_source_metadata: true
+background_mode: daily
+

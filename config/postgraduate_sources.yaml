@@ -1,0 +1,4 @@
+target_admission_year: 2028
+policy: 官方原文与AI解释必须分开；找不到官方数据时标记“未找到或待核实”
+priority_regions: [江苏, 上海, 浙江, 安徽]
+

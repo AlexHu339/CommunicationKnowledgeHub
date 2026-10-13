@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "KnowledgeCard",
+  "type": "object",
+  "required": ["id","subject","chapter","title","summary","explanation","sections_json","accuracy_notes_json","why_exists","problem_solved","intuition","inputs","outputs","common_uses","engineering_use","simple_example","misconceptions","prerequisites","related","next_steps","keywords","difficulty","content_level","visual_params","source","creation_method","review_status","content_version","competition_relevant"],
+  "properties": {
+    "id": {"type":"string","pattern":"^[a-z0-9-]+$"},
+    "subject": {"type":"string","minLength":2},
+    "title": {"type":"string","minLength":2,"maxLength":160},
+    "explanation": {"type":"string"},
+    "sections_json": {"type":"string"},
+    "accuracy_notes_json": {"type":"string"},
+    "difficulty": {"type":"integer","minimum":1,"maximum":5},
+    "review_status": {"const":"approved"},
+    "visual_template": {"type":["string","null"],"enum":[null,"waveform","spectrum","constellation","sampling","filter_response","probability","digital_timing","matrix_transform","em_wave","system_block"]},
+    "visual_params": {"type":"string"}
+  },
+  "additionalProperties": true
+}

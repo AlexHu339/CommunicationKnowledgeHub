@@ -1,0 +1,14 @@
+currency: CNY
+exchange_rate_note: 价格由用户维护；未知时不显示精确金额
+limits:
+  daily_calls: 50
+  monthly_calls: 500
+  daily_text_cost: null
+  monthly_text_cost: null
+  daily_image_calls: 10
+  monthly_vision_cost: null
+  single_max_cost: null
+  max_input_tokens: 50000
+  max_output_tokens: 8000
+models: []
+

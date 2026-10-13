@@ -1,0 +1,18 @@
+subjects:
+  - {name: 高等数学, target_count: 50}
+  - {name: 线性代数, target_count: 40}
+  - {name: 概率论与数理统计, target_count: 50}
+  - {name: 模拟电子技术, target_count: 65}
+  - {name: 信号与系统, target_count: 75}
+  - {name: 数字系统原理与设计, target_count: 60}
+  - {name: 电磁场与电磁波, target_count: 55}
+  - {name: 通信电子线路, target_count: 60}
+  - {name: 数字信号处理, target_count: 75}
+  - {name: 信息论与编码, target_count: 55}
+  - {name: 微机原理与接口技术, target_count: 65}
+  - {name: 通信原理, target_count: 85}
+  - {name: 单片机与嵌入式系统, target_count: 65}
+  - {name: 工程通识与仪器使用, target_count: 60}
+  - {name: 电赛知识, target_count: 80}
+  - {name: 考研常识, target_count: 60}
+

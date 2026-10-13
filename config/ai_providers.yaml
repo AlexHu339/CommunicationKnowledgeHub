@@ -1,0 +1,41 @@
+providers:
+- id: deepseek
+  display_name: DeepSeek
+  protocol: openai_chat_completions
+  base_url: https://api.deepseek.com
+  api_key_env: DEEPSEEK_API_KEY
+  models:
+  - id: deepseek-v4-flash
+    text_input: verified_supported
+    image_input: verified_unsupported
+    structured_output: verified_supported
+    reasoning: verified_supported
+    streaming: verified_supported
+    reasoning_tests:
+      极高: verified_supported
+      中: verified_supported
+    tool_calling: verified_unsupported
+    max_output_test: verified_supported
+    web_search: verified_unsupported
+  - id: deepseek-v4-pro
+    text_input: untested
+    image_input: untested
+    structured_output: untested
+    reasoning: untested
+- id: openai
+  display_name: OpenAI
+  protocol: openai_responses
+  base_url: https://api.openai.com/v1
+  api_key_env: OPENAI_API_KEY
+  models:
+  - id: gpt-5
+    streaming: untested
+    tool_calling: untested
+    text_input: untested
+    image_input: untested
+    structured_output: untested
+    web_search: untested
+    reasoning: untested
+    reasoning_tests: {}
+    max_output_test: untested
+  http_headers: {}

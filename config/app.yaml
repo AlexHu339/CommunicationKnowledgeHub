@@ -1,0 +1,14 @@
+app_name: 通信工程知识地图与学习助手
+version: 1.0.0
+host: 127.0.0.1
+preferred_port: 8765
+lan_enabled: false
+allowed_origins:
+  - http://127.0.0.1:8765
+  - http://localhost:8765
+  - http://127.0.0.1:5173
+  - http://localhost:5173
+session_hours: 12
+upload_max_mb: 20
+language: zh-CN
+

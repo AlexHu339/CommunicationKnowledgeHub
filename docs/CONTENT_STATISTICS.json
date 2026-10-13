@@ -1,0 +1,31 @@
+{
+  "total": 406,
+  "subject_counts": {
+    "高等数学": 20,
+    "线性代数": 16,
+    "概率论与数理统计": 20,
+    "模拟电子技术": 26,
+    "信号与系统": 30,
+    "数字系统原理与设计": 24,
+    "电磁场与电磁波": 22,
+    "通信电子线路": 24,
+    "数字信号处理": 28,
+    "信息论与编码": 22,
+    "微机原理与接口技术": 26,
+    "通信原理": 34,
+    "单片机与嵌入式系统": 26,
+    "工程通识与仪器使用": 24,
+    "电赛知识": 32,
+    "考研常识": 32
+  },
+  "natural_explanations": 20,
+  "rewrite_pending": 386,
+  "merged_legacy_aliases": 594,
+  "missing_visual": 106,
+  "missing_source": 0,
+  "exact_duplicate_titles_within_subject": 0,
+  "high_similarity_sample": [],
+  "field_completeness": 1.0,
+  "validation_errors": [],
+  "import_ready": true
+}

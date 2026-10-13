@@ -1,0 +1,33 @@
+# Local runtime and user data
+runtime/
+userdata/
+backups/
+exports/
+
+# Secrets and machine-local configuration. Keep only the safe templates.
+private/*
+!private/README_PRIVATE.txt
+!private/secrets.env.example
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Dependencies and generated files
+program/frontend/node_modules/
+program/frontend/dist/
+program/backend/.venv/
+*.pyc
+*.tsbuildinfo
+__pycache__/
+*.log
+.pytest_cache/
+
+# Local development records and generated release metadata
+.learnings/
+TASK_STATUS.md
+RELEASE_MANIFEST.json
+*.zip
+

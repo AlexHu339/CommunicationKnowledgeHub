@@ -1,0 +1,26 @@
+sources:
+  - id: moe_postgraduate
+    name: 教育部研究生教育
+    url: https://www.moe.gov.cn/jyb_xwfb/gzdt_gzdt/s5987/
+    category: postgraduate_policies
+    interval_hours: 168
+    trust: official
+  - id: chsi_yz
+    name: 中国研究生招生信息网
+    url: https://yz.chsi.com.cn/
+    category: postgraduate_policies
+    interval_hours: 72
+    trust: official
+  - id: jseea
+    name: 江苏省教育考试院
+    url: https://www.jseea.cn/webfile/examination/yjsks/
+    category: postgraduate_policies
+    interval_hours: 72
+    trust: official
+  - id: nuedc
+    name: 全国大学生电子设计竞赛
+    url: https://www.nuedc-training.com.cn/
+    category: competitions
+    interval_hours: 168
+    trust: official
+
